@@ -5,8 +5,8 @@ const productosRoutes = require('./rutas/productos');
 const usuariosRoutes = require('./rutas/usuarios');
 
 const app = express();
-const urlBD = 'mongodb://localhost:27017/tienda'; // MongoDB en local
-//const urlBD = 'mongodb+srv://eidervalsaeupv:nckH1givlGaxDd0X@tienda.jbtxlve.mongodb.net/?retryWrites=true&w=majority&appName=tienda&ssl=true'; // MongoDB en MongoDB Atlas
+//const urlBD = 'mongodb://localhost:27017/tienda'; // MongoDB en local
+const urlBD = 'mongodb+srv://eidervalsaeupv:nckH1givlGaxDd0X@tienda.jbtxlve.mongodb.net/?retryWrites=true&w=majority&appName=tienda&ssl=true'; // MongoDB en MongoDB Atlas
 
 // Middleware
 app.use(cors({
